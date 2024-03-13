@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./assets/imgP1/lo.ico" type="image/x-icon">
+    <title>digikala</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="assets/css/slider/cssfull.css">
+    <link rel="stylesheet" href="assets/css/slider/css1.css" media="screen and (max-width: 1365px)" />
+    <link rel="stylesheet" href="assets/css/slider/css2.css" media="screen and (min-width: 1366px)" />
+    <link rel="stylesheet" href="assets/css/slider/css3.css" media="screen and (min-width: 1680px)" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+</head>
+<body>
+        <!-- start header -->
+        <div class="container-fluid shadow-sm bg-white">
+            <div class="row p-3">
+              <div class="col-lg-2 col-md-3 col-sm-3 col-6 pr-2 box-logo">
+                <span class="logo"> </span>
+              </div>
+              <div class="col-lg-6 col-md-4 col-sm-3 col-6">
+                <form>
+                  <div class="input-group input-group-sm">
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control form-control-sm ms-5"
+                        placeholder="نام کالا , برند و یا دسته مورد نظر خود را جستجو کنید.."
+                        aria-label="Input group example"
+                        aria-describedby="btnGroupAddon"
+                      />
+                      <div class="input-group-text bg-danger" id="btnGroupAddon">
+                        <i class="bi bi-search text-white"></i>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-md-3 col-sm-3 col-6">
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger dropdown-toggle ms-5"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    ورود/ثبت نام
+                  </button>
+                  <ul class="dropdown-menu text-center border border-0">
+                    <li>
+                      <a href="" class="btn btn-info text-white"
+                        >ورود به پنل کاربری</a
+                      >
+                    </li>
+                    <ul class="list-inline register">
+                      <li class="list-inline-item">کاربر جدید هستید؟</li>
+                      <li class="list-inline-item"><a href="#">ثبت نام</a></li>
+                    </ul>
+      
+                    <li>
+                      <hr class="dropdown-divider" />
+                    </li>
+                    <ul class="list-inline register text-start">
+                      <li class="list-inline-item bi bi-person"></li>
+                      <li class="list-inline-item">پروفایل</li>
+                    </ul>
+                    <ul class="list-inline register text-start">
+                      <li class="list-inline-item bi bi-basket"></li>
+                      <li class="list-inline-item">پیگیری سفارش</li>
+                    </ul>
+                  </ul>
+                </div>
+              </div>
+      
+              <div class="col-lg-2 col-md-2 col-sm-2 col-6 col-sm-2 col-6">
+                <a href="#" class="btn btn-outline-info"
+                  ><i class="bi bi-cart"></i> سبد خرید<span>۰</span></a
+                >
+              </div>
+            </div>
+          </div>
+          <!--start Menu  -->
+          <nav class="navbar navbar-expand-sm navbar-light navbar_custom">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="" class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown">دسته بندی کالاها</a>
+                    <div class="dropdown-menu dropdown-menu_custom1 shadow-sm rounded-bottom border-0"
+                    id="custom-main-dropdown-menu">
+                   <div class="container-fluid">
+                       <div class="row">
+                        <div class="col-12 col-md-3">
+                          <div class="top_link">
+                            
+                            <a href="#" class="text-decoration-none"><i class="bi bi-chevron-left ">برند های مختلف گوشی موبایل</i></a>
+                            <ul class="list-group custom-list-group">
+                                <li class="list-group-item border-0 px-0 "><a href="#"> گوشی آیفون</a></li>
+                                <li class="list-group-item border-0 px-0"><a href="#">گوشی شیاومی</a></li>
+                                <li class="list-group-item border-0 px-0"><a href="#">گوشی سامسونگ</a>
+                                </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                          <div class="top_link">
+                            
+                            <a href="#" class="text-decoration-none"><i class="bi bi-chevron-left ">گوشی براساس قیمت</i></a>
+                            <ul class="list-group custom-list-group">
+                                <li class="list-group-item border-0 px-0 "><a href="#"> موبایل ارزان</a></li>
+                                <li class="list-group-item border-0 px-0"><a href="#">موبایل قسطی</a></li>
+                                <li class="list-group-item border-0 px-0"><a href="#">گوشی تا 15 میلیون تومان</a>
+                                </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                          <div class="top_link">
+                            
+                            <a href="#" class="text-decoration-none"><i class="bi bi-chevron-left "></i>کالای دیجیتال
+                            </i></a>
+                    <ul class="list-group custom-list-group">
+                        <li class="list-group-item border-0 px-0 "><a href="#">لپ تاب</a></li>
+                        <li class="list-group-item border-0 px-0"><a href="#">هدفون</a></li>
+                        <li class="list-group-item border-0 px-0"><a href="#">پرینتر</a>
+                    </ul>    
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-3">
+                          <div class="top_link">
+                            
+                            <a href="#" class="text-decoration-none"><i class="bi bi-chevron-left ">خانه آشپزخانه
+                            </i></a>
+                    <ul class="list-group custom-list-group">
+                        <li class="list-group-item border-0 px-0 "><a href="#">ابزار آشپزی</a></li>
+                        <li class="list-group-item border-0 px-0"><a href="#">قاب عکس</a></li>
+                        <li class="list-group-item border-0 px-0"><a href="#">قهوه ساز</a>
+                        </li>
+                    </ul>
+                          </div>
+                        </div>
+                       </div>
+                   </div>
+                  </div>
+                 
+                </li>
+              </ul>
+            </div>
+          </nav>
+      <!--start breadcrumb-->
+      <div class="container-fluid mt-3">
+          <div class="bg-transparent">
+              <nav>
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item" style="margin-top: 1px"><a href="">فروشگاه اینترنتی دیجی کالا</a></li>
+                      <li class="breadcrumb-item"><a href="">کالای دیجیتال</a></li>
+                      <li class="breadcrumb-item"><a href="">کامپیوتر و تجهیزات جانبی</a></li>
+                      <li class="breadcrumb-item"><a href="">هدفون , هدست , میکروفون</a></li>
+                      <li class="breadcrumb-item active">هنذفری بلوتوث مدل HBQ-I7</li>
+                  </ol>
+              </nav>
+          </div>
+      </div>
+      
+      <!--start product -->
+      <div class="container-fluid box_product">
+          <div class="row ">
+              <div class="col-lg-4 bg-white">
+                  <div class="row">
+                      <div class="col-lg-2 col-2 gallery_options mt-5">
+                          <ul class="list-inline">
+                              <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                              <li><a href="#"><i class="bi bi-share"></i></a></li>
+                              <li><a href="#"><i class="bi bi-hdd-rack"></i></a></li>
+                              <li><a href="#"><i class="bi bi-hourglass"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="col-lg-9 col-10 mt-5">
+                          <div class="box_img border-bottom text-center pt-0 pt-md-4">
+                              <img src="./assets/imgP1/hed.webp" class="img-fluid">
+                          </div>
+                          <div class="box_list_img mt-3 pt-0 pt-md-5 text-center">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><img src="./assets/imgP1/img_h1.jpg" alt=""></li>
+                                  <li class="list-inline-item"><img src="./assets/imgP1/img_h2.jpg" alt=""></li>
+                                  <li class="list-inline-item"><img src="./assets/imgP1/img_h4.jpg" alt=""></li>
+                                  <li class="list-inline-item"><i class="bi bi-three-dots"></i></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- ------- -->
+              <div class="col-lg-8 product-info">
+                  <div class="row t text-md-left ">
+                      <div class="col-md-9 pt-3">
+                          <h1 class="product-title">
+                              هندزفری بلوتوث مدل HBQ-I7
+                              <span>HBQ-I7 Bluetooth Handsfree
+      </span>
+                          </h1>
+                      </div>
+                    
+                  </div>
+                  <div class="border_bottom"></div>
+                  <div class="row">
+                      <div class="col-md-8">
+                          <div class="product_directory pt-2 text-md-left">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item">
+                                      <span>برند</span>
+                                      :
+                                      <span>متفرقه</span>
+                                  </li>
+                                  <li class="list-inline-item pr-3">
+                                      <span>دسته بندی</span>
+                                      :
+                                      <span><a href="#">هنذفری</a></span>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="box_color mt-1 text-center text-md-left">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item title">انتخاب رنگ :</li>
+                                  <a href="">
+                                      <li class="list-inline-item box_check1">
+                                          <div class="check1"><span>سفید</span></div>
+                                      </li>
+                                  </a>
+                                  <a href="">
+                                      <li class="list-inline-item box_check1">
+                                          <div class="check2"><span>مشکی</span></div>
+                                      </li>
+                                  </a>
+                              </ul>
+                          </div>
+                          <br>
+                          <div class="product_guarantee mt-3  text-md-left">
+                              <i class="bi bi-check-circle-fill"></i>
+                              <span>سرویس ویژه دیجی کالا : ۷ روز تضمین تعویض کالا</span>
+                          </div>
+                          <div class="border_bottom mt-3"></div>
+                          <div class="product_guarantee mt-2  text-md-left">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item  me-3"><i class="bi bi-shop"></i></li>
+                                  <li class="list-inline-item">
+                                      <span>فروشنده</span>
+                                      :
+                                      <span><a href="#">بوسمن</a></span>
+                                  </li>
+                                  <li class="seller_rate"><span>رضایت خرید :۵۳%</span></li>
+                              </ul>
+                          </div>
+                          <div class="product_guarantee mt-2  text-md-left">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item mr-0">
+                                      <img src="./assets/imgP1/1fb9a3a5.svg" alt="">
+                                  </li>
+                                  <li class="list-inline-item mr-2">
+                                      <span>بسته بندی و ارسال توسط دیجی کالا</span>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="product_guarantee mt-2  text-md-left">
+                              <ul class="list-inline">
+                                  <li class="list-inline-item mr-0">
+                                      <img src="./assets/imgP1/warehouse.JPG" width="25" alt="">
+                                  </li>
+                                  <li class="list-inline-item mr-2">
+                                      <span class="text-info">آماده ارسال</span>
+                                  </li>
+                              </ul>
+                          </div>
+                          <div class="border_bottom mt-3"></div>
+                          <div class="box_price mt-2  text-md-left">
+                              <p>۲,۱۵۰,۰۰۰تومان </p>
+                              <a href="#" class="btn btn_custom2 shadow-sm"><i class="bi bi-cart "></i>افزودن
+                                  به سبد خرید</a>
+                          </div>
+                      </div>
+                      <div class="col-md-4 product_params bg-transparent mt-2 text-center text-md-left">
+                          <div class="box1">
+                              <a href="" class="btn btn-white"><i class="bi bi-shop"></i>فروشنده / گارانتی این کالا ۷</a>
+                          </div>
+                          <div class="box2 mt-4">
+                              <span>ویژگی های محصول</span>
+                              <ul>
+                                  <li>قابلیت پخش موسیقی : دارد</li>
+                                  <li>قابلیت کنترل صدا و موزیک : ندارد</li>
+                                  <li>راهنمایی صوتی : ندارد</li>
+                                  <li><a href="">موارد بیشتر +</a></li>
+      
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row mt-4 pb-4 text-center text-md-left">
+                      <div class="col-md-6">
+                          <ul class="list-inline">
+                              <li class="list-inline-item unfair-price">ایا از قیمت راضی هستید ؟</li>
+                              <li class="list-inline-item unfair-price"><a href="">بله</a></li>
+                              <li class="list-inline-item "><a href="">|</a></li>
+                              <li class="list-inline-item unfair-price"><a href="">خیر</a></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-6 box_offer text-right text-center text-md-right">
+                          <span><i class=" "></i><a href="#">کالای خود را در دیجی کالا بفروشید</a></span>
+                      </div>
+                  </div>
+                  <br><br><br><br><br>
+      
+              </div>
+          </div>
+      </div>
+      
+      <!--start product_feature-->
+      <div class="container mt-3 product_feature">
+          <div class="row">
+              <div class="col box "><a href="#"><img src="./assets/imgP1/c99c8b3d.svg" class="img-fluid" alt="">
+                  <ul class="list-inline">
+                      <li>امکان</li>
+                      <li>تحویل اکسپرس</li>
+                  </ul>
+      
+              </a></div>
+              <div class="col box "><a href="#"><img src="./assets/imgP1/28cf2088.svg" class="img-fluid pf_img" alt="">
+                  <ul class="list-inline">
+                      <li>هرروز  هفته 24 ساعته</li>
+                  </ul>
+      
+              </a></div>
+              <div class="col box "><a href="#"><img src="./assets/imgP1/4c9cdf1f.svg" class="img-fluid pf_img" alt="">
+                  <ul class="list-inline">
+                      <li>امکان پرداخت درب منزل</li>
+                  </ul>
+      
+              </a></div>
+              <div class="col box "><a href="#"><img src="./assets/imgP1/d9c5e979.svg" class="img-fluid pf_img" alt="">
+                  <ul class="list-inline">
+                      <li>هفت روز ضمانت بازگشت کالا </li>
+                  </ul>
+      
+              </a></div>
+              <div class="col box "><a href="#"><img src="./assets/imgP1/9aec2c1d.svg" class="img-fluid pf_img" alt="">
+                  <ul class="list-inline">
+                      <li>ضمانت اصل بودن کالا</li>
+                  </ul>
+      
+              </a></div>
+          </div>
+      </div>
+      
+      <!-- start footer -->
+      <div class="container-fluid pt-2 bg_footer">
+          <div class="row">
+              <div class="col-md-3 col-6 serv text-center">
+                  <img src="./assets/imgP1/serv3.svg" alt="">
+                  <p>ضمانت اصل بودن کالا</p>
+              </div>
+              <div class="col-md-3 col-6 serv text-center">
+                  <img src="./assets/imgP1/serv4.svg" alt="">
+                  <p>هفت روز ضمانت بازگشت</p>
+              </div>
+              <div class="col-md-3 col-6 serv text-center">
+                  <img src="./assets/imgP1/serv2.svg" alt="">
+                  <p>پرداخت درب منزل</p>
+              </div>
+              <div class="col-md-3 col-6 serv text-center">
+                  <img src="./assets/imgP1/serv5.svg" alt="">
+                  <p>پشتیبانی همه روزه</p>
+              </div>
+          </div>
+          <div class="container border-bottom"></div>
+          <div class="container border-bottom pb-3 pt-3">
+              <div class="row">
+                  <div class="col">
+                      <div class="box_footer_links">
+                          <p><a href="#">راهنمایی خرید از دیجی کالا</a></p>
+                          <ul>
+                              <li><a href="#">نحوه ثبت سفارش</a></li>
+                              <li><a href="#">رویه ارسال سفارش</a></li>
+                              <li><a href="#">شیوه های پرداخت</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="box_footer_links">
+                          <p><a href="#">خدمات مشتریان</a></p>
+                          <ul>
+                              <li><a href="#">پاسخ به پرسش های متداول</a></li>
+                              <li><a href="#">رویه های بازگردانی کالا</a></li>
+                              <li><a href="#">شرایط استفاده</a></li>
+                              <li><a href="#">حریم خصوصی</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="box_footer_links">
+                          <p><a href="#">با دیجی‌کالا</a></p>
+                          <ul>
+                              <li><a href="#">فروش در دیجی‌کالا</a></li>
+                              <li><a href="#">همکاری با سازمان‌ها</a></li>
+                              <li><a href="#">فرصت‌های شغلی</a></li>
+                              <li><a href="#">تماس با دیجی‌کالا</a></li>
+                              <li><a href="#">درباره دیجی‌کالا</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col mt-3 mt-sm-0">
+                      <div class="footer_form">
+                          <p>از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید:
+                          </p>
+                          <form>
+                              <div class="input-group text-right">
+                                  <input type="text" class="form-control rounded-right bg-white input_search" placeholder="آدرس ایمیل خود را وارد کنید">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text bg-info border-0 custom-input-group-text rounded-left">
+                                          <a href="#" class="text-white">ارسال</a>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                          <p class="pt-4">دیجی‌کالا را در شبکه‌های اجتماعی دنبال کنید:
+                          </p>
+                          <div class="social_instagram text-center">
+                              <a href="#"><img src="./assets/imgP1instagrams.svg" class="px-1" alt="">اینستاگرام دیجی کالا</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="container pt-3">
+              <div class="row">
+                  <div class="footer_box_right ml-auto">
+                      <p>هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</p>
+                      <ul class="list-inline">
+                          <li class="list-inline-item">شماره تماس :<a href="#">۶۱۹۳۰۰۰۰ - ۰۲۱,۹۵۱۱۹۰۹۵ - ۰۲۱  </a></li>
+                          <li class="list-inline-item">آدرس ایمیل :<a href="#">info@digikala.com
+                          </a></li>
+                      </ul>
+                  </div>
+                  <div class="footer_box_left mr-auto mb-3">
+                      <a href="#"><img src="./assets/imgP1/bazar.png"> </a>
+                      <a href="#"><img src="./assets/imgP1/sibapp.png"> </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <footer class="container-fluid  py-4">
+          <div class="row pr-5 pt-5 offset-1 ">
+              <div class="col-lg-6 col-12 footer_digi">
+                  <p>فروشگاه اینترنتی دیجی کالا  , بررسی , انتخاب و خرید آنلاین</p>
+                  <span>
+                      دیجی‌کالا به عنوان یکی از قدیمی‌ترین فروشگاه های اینترنتی با بیش از یک دهه تجربه، با پایبندی به سه اصل کلیدی، پرداخت در محل، 7 روز ضمانت بازگشت کالا و تضمین اصل‌بودن کالا، موفق شده تا همگام با فروشگاه‌های معتبر جهان، به بزرگ‌ترین فروشگاه اینترنتی ایران تبدیل شود. به محض ورود به دیجی‌کالا با یک سایت پر از کالا رو به رو می‌شوید! هر آنچه که نیاز دارید و به ذهن شما خطور می‌کند در اینجا پیدا خواهید کرد.
+                  </span>
+              </div>
+              <div class="col-md-5 col-12 box_banner  ">
+                  <div class="row ">
+                      <img src="./assets/imgP1/img_footer.JPG" class="img-fluid" alt="">
+                  </div>
+              </div>
+          </div>
+          <div class="row pt-4 text-center">
+              <div class="col-md-3 col-6"><a href=""><img src="./assets/imgP1/img_footer1.svg" alt=""></a></div>
+              <div class="col-md-3 col-6"><a href=""><img src="./assets/imgP1/img_footer2.svg" alt=""></a></div>
+              <div class="col-md-3 col-6 pt-2"><a href=""><img src="./assets/imgP1/img_footer3.svg" alt=""></a></div>
+              <div class="col-md-3 col-6"><a href=""><img src="./assets/imgP1/img_footer4.svg" alt=""></a></div>
+          </div>
+          <div class="container border_bottom1 pt-4 "></div>
+          <div class="container text-center copyRight pt-4">
+              <p>استفاده از مطالب فروشگاه اینترنتی دیجی‌کالا فقط برای مقاصد غیرتجاری و با ذکر منبع بلامانع است. کلیه حقوق این سایت متعلق به شرکت نوآوران فن آوازه (فروشگاه آنلاین دیجی‌کالا) می‌باشد.
+      
+              </p>
+          </div>
+      
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+<script src="./assets/js/slider1.js"></script>
+<script src="./assets/js/slider2.js"></script>
+<script src="./assets/js/owl.carousel.min.js"></script>
+
+<script>
+    $(document).ready()
+    {
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            rtl: true,
+            margin: 25,
+            nav: true,
+            loop: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>
